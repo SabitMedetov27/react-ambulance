@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-ambulance/static/css/main.42b2d325.css",
+    "main.js": "/react-ambulance/static/js/main.a38b49df.js",
+    "index.html": "/react-ambulance/index.html",
+    "main.42b2d325.css.map": "/react-ambulance/static/css/main.42b2d325.css.map",
+    "main.a38b49df.js.map": "/react-ambulance/static/js/main.a38b49df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b2d325.css",
+    "static/js/main.a38b49df.js"
+  ]
+}
