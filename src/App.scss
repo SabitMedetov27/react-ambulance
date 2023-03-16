@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto sans";
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    max-width: 770px;
+  }
+}
+

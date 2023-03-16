@@ -1,0 +1,145 @@
+header {
+  background: #76282b;
+  height: 60px;
+  z-index: 10;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      margin-left: 75px;
+      display: flex;
+      
+    }
+    .menu {
+      display: none;
+    }
+    .nav {
+      display: flex;
+      
+      color: #ffffff;
+      gap: 38px;
+      cursor: pointer;
+      margin-left: 40vh;
+      li {
+        opacity: 0.8;
+        font-weight: 600;
+        font-size: 15px;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .phone {
+      display: flex;
+      
+      background: #d41307;
+      width: 212px;
+      height: 60px;
+      margin-top: -0px;
+      margin-left: 1vh;
+      padding-left: 56px;
+      align-items: center;
+      gap: 11px;
+      transition: 300ms;
+      &:hover {
+        opacity: 0.6;
+      }
+      span {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1280px) {
+  header {
+    width: 1270px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  header {
+    width: 940px;
+    z-index: 10;
+    .navbar {
+      .nav {
+        
+        margin-left: 30vh;
+      }
+      .phone {
+        width: 247px;
+        height: 60px;
+
+        margin-left: 6vh;
+      }
+      .menu {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  header {
+    border: 1px solid green;
+    width: 376px;
+    z-index: 10;
+    position: absolute;
+
+    .navbar {
+      .phone {
+        display: none;
+      }
+      .nav.active {
+        top: -45vh;
+        opacity: 0;
+      }
+      .nav {
+        padding: 30px;
+        background: #76282b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 5vh;
+        left: 20.8vh;
+        z-index: 5;
+        transition: 300ms;
+
+        &:hover {
+          background: #621e20;
+        }
+        li {
+          font-weight: 400;
+          font-size: 18px;
+          opacity: 0.8;
+          color: #ffffff;
+        }
+      }
+      .logo {
+        margin-top: 20px;
+        margin-left: 11vh;
+        z-index: 10;
+      }
+      .menu {
+        display: flex;
+        margin-right: 20px;
+        margin-top: 10px;
+        z-index: 20;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .close-menu {
+        color: #ffffff;
+        font-size: 40px;
+        margin-top: -23px;
+        position: absolute;
+        margin-left: -25px;
+      }
+    }
+  }
+}

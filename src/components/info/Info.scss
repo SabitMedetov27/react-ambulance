@@ -1,0 +1,44 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  h3 {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  p {
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .info1 {
+    width: 1300px;
+  }
+  .info2 {
+    width: 1200px;
+  }
+  .info3 {
+    width: 1300px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .info{
+    max-width: 376px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    grid-gap: 80px;
+    .info1 {
+      max-width: 340px;
+    }
+    .info2 {
+      max-width: 340px;
+    }
+    .info3 {
+      max-width: 340px;
+    }
+  }
+}
